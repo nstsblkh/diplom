@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="1.css">
 </head>
 <body class="d-flex flex-column">
-    	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   			<div class="container-fluid">
    				 <a class="navbar-brand" href="index.html">Объекты культурного наследия Москвы</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,18 +27,27 @@
 		</nav>	
 	</nav>
 	<main>
-		<div class="input-group d-flex" >
-  			<input type="search" class="form-control rounded" placeholder="Найти объекты" aria-label="Search" aria-describedby="search-addon" />
-  			<button type="button" class="btn p2 btn-outline-light bg-dark">Поиск</button>
-		</div>
-	</main>	
-		<div class="d-flex justify-content-center ">			
-				<a href="add.html" class="text-decoration-none text-reset"><button type="button" class="btn btn-dark">Добавить +
-  				<svg width="1em" height="1em" fill="#212529" xmlns=""></svg>
-				</button></a>
-		</div>
-		<div class="d-md-flex justify-content-center fixed-bottom" >
-			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Ehiahj0lb1rS81dqahBHy5iJTJ3GMsMS&ehbc=2E312F" width="500" height="400"></iframe>
-		</div>
+		<form class="d-flex justify-content-center"><break>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Название</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите название">
+  </div><break>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Статус</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Введите статус">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Тип</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите тип">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Адрес</label>
+    <input type="text" class="form-control mb-3" id="inputAddress" placeholder="Введите адрес">
+  </div>
+  <button type="submit" class="btn btn-primary ">Добавить</button>
+</form>
+	</main>
 </body>
 </html>
+
+	
