@@ -7,4 +7,8 @@
     position: relative;
     top: 3em;
 }
-
+.im{
+    border-radius: 400px;
+    width: 200px;
+    height: 150px;
+}
